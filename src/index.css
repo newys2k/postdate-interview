@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { background: #FAF4EA; -webkit-text-size-adjust: 100%; }
+  body { @apply bg-cream font-sans text-ink antialiased; -webkit-tap-highlight-color: transparent; }
+  ::selection { background: #F4DADD; }
+}
